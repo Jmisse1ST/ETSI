@@ -1,4 +1,4 @@
-# 🎓 EduHub – Connect, Discuss & Share Knowledge Forever!
+# 🎓 UniLib – Connect, Discuss & Share Knowledge Forever!
 
 
 <p align="center">
@@ -17,7 +17,7 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/Jmisse1ST/ETSI">
 </p>
 
-Welcome to **EduHub**, a revolutionary platform where **students from different universities and schools** can **create discussion rooms**, **share study materials**, and **collaborate across disciplines** — all structured by **University**, **Faculty**, **Course**, **Subject**, **Year**, and **Semester**.
+Welcome to **UniLib**, a revolutionary platform where **students from different universities and schools** can **create discussion rooms**, **share study materials**, and **collaborate across disciplines** — all structured by **University**, **Faculty**, **Course**, **Subject**, **Year**, and **Semester**.
 
 No more losing PDFs, notes, or past papers. On EduHub, **your knowledge lives forever**.
 
@@ -30,7 +30,7 @@ In today's fast-paced academic world, students often struggle to:
 - Discuss with peers outside their own institution
 - Find resources by **exact academic context** (e.g. *Faculty of Science → Computer Science → 2nd Year → Semester 1*)
 
-**EduHub changes that.** This is your permanent, organized, and collaborative **academic ecosystem**.
+**UniLib changes that.** This is your permanent, organized, and collaborative **academic ecosystem**.
 
 ---
 
