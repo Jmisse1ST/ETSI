@@ -1,93 +1,125 @@
-# Repositório Acadêmico ETSI
-Bem-vindo ao Repositório Acadêmico da ETSI, um espaço centralizado para compartilhar materiais de estudo, projetos, e recursos educacionais entre estudantes do curso de ETSI.
+# 🎓 EduHub – Connect, Discuss & Share Knowledge Forever!
 
-# Objetivo🎯 
 
-Este repositório centraliza e organiza materiais acadêmicos da ETSI, funcionando como backup seguro e facilitando o acesso a apontamentos, exercícios e projetos. Promove a colaboração entre estudantes, preserva o histórico institucional e otimiza o tempo de estudo com conteúdos bem estruturados, beneficiando toda a comunidade acadêmica.
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Jmisse1ST/ETSI">
 
-# Estrutura do Repositório
-        ETSI/
-        ├── 📁 Novo_Curriculo/
-        │   ├── 📁 1º_Ano/
-        │   │   ├── 📁 1º_Semestre/
-        │   │   │   ├── 📁 Matematica_I/
-        │   │   │   │   ├── 📜 Apontamentos/
-        │   │   │   │   ├── 📜 Exercicios/
-        │   │   │   │   ├── 📜 Exames/
-        │   │   │   │   └── 📜 Projetos/
-        │   │   │   └── 📁 Programacao_I/
-        │   │   │       └── ...
-        │   │   └── 📁 2º_Semestre/
-        │   │       └── ...
-        │   └── 📁 2º_Ano/
-        │       └── ...
-        │
-        ├── 📁 Antigo_Curriculo/
-        │   ├── 📁 1º_Ano/
-        │   │   └── ...
-        │   └── 📁 2º_Ano/
-        │       └── ...
-        │
-        ├── 📁 Recursos_Complementares/
-        │   ├── 📁 Livros_Recomendados/
-        │   └── 📁 Guias_de_Estudo/
-        │
-        ├── 📜 LICENSE.md
-        └── 📜 README.md
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Jmisse1ST/ETSI">
 
-# 🛠 Como Contribuir
-### Antes de Começar:
+  <a href="https://github.com/Jmisse1ST/ETSI/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Jmisse1ST/ETSI">
+  </a>
 
-Verifique se o material que deseja adicionar já existe no repositório.
-Certifique-se de que tem direitos para compartilhar o conteúdo (autoria própria ou permissão explícita).
+  <a href="https://github.com/Jmisse1ST/ETSI/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Jmisse1ST/ETSI">
+  </a>
 
-1. Organize Seu Material
+  <img alt="GitHub" src="https://img.shields.io/github/license/Jmisse1ST/ETSI">
+</p>
 
-    📂 Siga a estrutura de pastas existente (Ano → Semestre → Disciplina).
+Welcome to **EduHub**, a revolutionary platform where **students from different universities and schools** can **create discussion rooms**, **share study materials**, and **collaborate across disciplines** — all structured by **University**, **Faculty**, **Course**, **Subject**, **Year**, and **Semester**.
 
-    📝 Nomeie os arquivos corretamente:
+No more losing PDFs, notes, or past papers. On EduHub, **your knowledge lives forever**.
 
-        ANO_TIPOCONTEÚDO_AUTOR.ext  
-        Ex: 2023-Algoritmos_ExerciciosResolvidos_JemisseMacuacua.pdf 
+---
 
-    🗂 Para materiais novos:
+## 🚀 Why EduHub?
 
-        Se uma disciplina não existir, abra uma issue para discutir sua criação.
+In today's fast-paced academic world, students often struggle to:
+- Reconnect with shared materials from previous semesters
+- Discuss with peers outside their own institution
+- Find resources by **exact academic context** (e.g. *Faculty of Science → Computer Science → 2nd Year → Semester 1*)
 
-        Não crie pastas sem aprovação prévia.
+**EduHub changes that.** This is your permanent, organized, and collaborative **academic ecosystem**.
 
-3. Faça um Pull Request (PR)
+---
 
-    🔄 Descreva claramente no PR:
+## 🧠 Key Features
 
-        Qual disciplina/ano o material pertence.
+- **Create public or private discussion rooms** for any subject  
+- **Upload and organize study materials** by:  
+> 📍 University → Faculty → Course → Subject → Year → Semester 1/2  
 
-        Tipo de conteúdo (apontamentos, exercícios, projetos, etc.).
+- **Search & Filter** resources intuitively  
+- **Responsive design** for mobile and desktop  
+- **Secure & persistent** file storage (no expirations)  
+- **Community-driven moderation & feedback system**
 
-        Confirmação de que segue a licença MINT.
+---
 
-    🚫 Não serão aceitos:
+## 🗂️ Platform Structure
+University
+└── Faculty
+└── Course
+└── Subject
+├── Year 1
+│ ├── Semester 1
+│ └── Semester 2
+└── Year 2...
+---
 
-        PRs sem descrição
+## 🛠️ Tech Stack (Suggested)
 
-        Materiais com direitos autorais não autorizados.
+- **Frontend**: ReactJS / VueJS  
+- **Backend**: Node.js / Spring Boot / Laravel  
+- **Database**: PostgreSQL / MongoDB  
+- **Storage**: Firebase / AWS S3  
+- **Authentication**: JWT / OAuth  
+- **Real-time Discussion**: Socket.io / WebRTC  
 
-        Conteúdo fora do escopo acadêmico.
+> ⚙️ Modular, scalable, and ready for open source contributions.
 
-    🔍 Podem ser solicitadas alterações (formatação, organização, etc.)
+---
 
-    ✅ Uma vez aprovado, seu material será incorporado ao repositório
+## 🌍 Vision
 
-# 🔏 Licença MINT 
+Imagine a future where:
+- A student in Maputo shares calculus notes that help someone in Nampula.
+- A graduate uploads past exams that assist a 1st-year student 5 years later.
+- Knowledge is **decentralized, preserved, and free** — by students, for students.
 
-###### Você Pode:
-Usar, copiar e compartilhar os materiais para fins educacionais, aptar e modificar os conteúdos desde que mantenha a autoria original.
+**EduHub is more than a site. It’s a movement.**
 
-###### Você Deve:
-Atribuir créditos aos autores originais e manter esta mesma licença em quaisquer redistribuições.
+---
 
-###### Você Não Pode:
-Usar os materiais para fins comerciais sem autorização expressa ou publicar modificações sem identificar claramente as alterações.
+## 🧑‍💻 How to Contribute
 
-⚠️ Os materiais são disponibilizados "no estado em que se encontram" e os autores e mantenedores não se responsabilizam por possíveis erros.
+We're building this together! Whether you're a:
+- Developer 🧑‍💻
+- UI/UX Designer 🎨
+- Student who wants to give feedback 🎓
 
+...we'd love your help!
+
+```bash
+# 1. Fork the repository
+# 2. Clone it locally
+git clone (https://github.com/Jmisse1ST/ETSI.git)
+
+# 3. Create a new branch
+git checkout -b feature/amazing-feature
+
+# 4. Make your changes and commit
+git commit -m "Add amazing feature"
+
+# 5. Push to GitHub
+git push origin feature/amazing-feature
+
+# 6. Open a Pull Request!
+```
+
+## 🙌 Main Contributor and friend
+Big thanks to our lead contributor:
+(https://www.linkedin.com/in/fabiao-chirindza-mainato/) – for driving the vision and development of EduHub. 🌟
+
+## 📫 Contact & Community
+Have questions? Want to collaborate?
+Let’s build EduHub into the Wikipedia of student study materials.
+
+📧 Email: eduhubcontact@gmail.com
+
+## 📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+Feel free to use, modify, and distribute — just don’t forget to give credit!
+
+“Alone we study, together we grow.” — EduHub Team
