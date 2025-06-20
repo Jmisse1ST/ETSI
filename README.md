@@ -61,7 +61,7 @@ University
 ## 🛠️ Tech Stack (Suggested)
 
 - **Frontend**: ReactJS / VueJS  
-- **Backend**: Node.js / Spring Boot / Laravel  
+- **Backend**: Node.js / Spring Boot 
 - **Database**: PostgreSQL / MongoDB  
 - **Storage**: Firebase / AWS S3  
 - **Authentication**: JWT / OAuth  
@@ -117,6 +117,8 @@ Have questions? Want to collaborate?
 Let’s build EduHub into the Wikipedia of student study materials.
 
 📧 Email: eduhubcontact@gmail.com
+
+Follow my linkedin👉[]
 
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
