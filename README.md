@@ -23,7 +23,7 @@ No more losing PDFs, notes, or past papers. On EduHub, **your knowledge lives fo
 
 ---
 
-## 🚀 Why EduHub?
+## 🚀 Why UniLib?
 
 In today's fast-paced academic world, students often struggle to:
 - Reconnect with shared materials from previous semesters
