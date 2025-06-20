@@ -78,7 +78,7 @@ Imagine a future where:
 - A graduate uploads past exams that assist a 1st-year student 5 years later.
 - Knowledge is **decentralized, preserved, and free** — by students, for students.
 
-**EduHub is more than a site. It’s a movement.**
+**UniLab is more than a site. It’s a movement.**
 
 ---
 
@@ -94,7 +94,7 @@ We're building this together! Whether you're a:
 ```bash
 # 1. Fork the repository
 # 2. Clone it locally
-git clone (https://github.com/Jmisse1ST/ETSI.git)
+git clone (https://github.com/Jmisse1ST/UniLab.git)
 
 # 3. Create a new branch
 git checkout -b feature/amazing-feature
@@ -110,18 +110,18 @@ git push origin feature/amazing-feature
 
 ## 🙌 Main Contributor and friend
 Big thanks to our lead contributor:
-(https://www.linkedin.com/in/fabiao-chirindza-mainato/) – for driving the vision and development of EduHub. 🌟
+(https://www.linkedin.com/in/fabiao-chirindza-mainato/) – for driving the vision and development of UniLib. 🌟
 
 ## 📫 Contact & Community
 Have questions? Want to collaborate?
-Let’s build EduHub into the Wikipedia of student study materials.
+Let’s build UniLib into the Wikipedia of student study materials.
 
-📧 Email: eduhubcontact@gmail.com
+📧 Email: jemissse1st@gmail.com
 
-Follow my linkedin👉[]
+Follow my linkedin👉[https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/]
 
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 Feel free to use, modify, and distribute — just don’t forget to give credit!
 
-“Alone we study, together we grow.” — EduHub Team
+“Alone we study, together we grow.” — UniLib Team
