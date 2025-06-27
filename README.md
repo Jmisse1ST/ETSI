@@ -56,6 +56,7 @@ University
 │ ├── Semester 1
 │ └── Semester 2
 └── Year 2...
+
 ---
 
 ## 🛠️ Tech Stack (Suggested)
@@ -109,16 +110,23 @@ git push origin feature/amazing-feature
 ```
 
 ## 🙌 Main Contributor and friend
-Big thanks to our lead contributor:
-(https://www.linkedin.com/in/fabiao-chirindza-mainato/) – for driving the vision and development of UniLib. 🌟
+<p>Big thanks to our lead contributor:</p>
+<a href="https://www.linkedin.com/in/fabiao-chirindza-mainato/" target="_blank" >
+    <img align="top" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  </a> – for driving the vision and development of UniLib. 🌟
 
 ## 📫 Contact & Community
 Have questions? Want to collaborate?
 Let’s build UniLib into the Wikipedia of student study materials.
 
-📧 Email: jemissse1st@gmail.com
+<p>E-mail me 👉 <a href="mailto:jemissse1st@gmail.com">
+    <img align="top" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+  </a></p>
 
-Follow my linkedin👉[https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/]
+  
+Follow my linkedin 👉 - <a href="https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/" target="_blank" >
+    <img align="top" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  </a>
 
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
