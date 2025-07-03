@@ -1,3 +1,6 @@
+// import { Link } from 'react-router-dom';
+// --- a/file:///home/jemisse/UniLib/Lib/src/Section/Header.tsx
+
 'use client'
 
 
@@ -14,15 +17,15 @@ import {
   PopoverPanel,
 } from '@headlessui/react'
 import {
-  ArrowPathIcon,
+  //ArrowPathIcon,
   Bars3Icon,
   ChartPieIcon,
   CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
+  //FingerPrintIcon,
+  //SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon, /*PhoneIcon, PlayCircleIcon*/ } from '@heroicons/react/20/solid'
 
 const products = [
     { name: 'Testes', description: 'Consulte as datas das suas avaliações', href: '#', icon: ChartPieIcon },
@@ -31,10 +34,10 @@ const products = [
   //{ name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
   //{ name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
-const callsToAction = [
+//const callsToAction = [
   //{ name: 'Watch demo', href: '#', icon: PlayCircleIcon },
   //{ name: 'Contact sales', href: '#', icon: PhoneIcon },
-]
+//]
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -92,8 +95,8 @@ export default function Example() {
                   </div>
                 ))}
               </div>
-              <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                {callsToAction.map((item) => (
+              ***<div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                { /*callsToAction.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
@@ -102,7 +105,7 @@ export default function Example() {
                     <item.icon aria-hidden="true" className="size-5 flex-none text-gray-400" />
                     {item.name}
                   </a>
-                ))}
+                ))*/}
               </div>
             </PopoverPanel>
           </Popover>
@@ -110,9 +113,11 @@ export default function Example() {
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Horário 
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Desenvolvedores
+          <a href="" className="text-sm/6 font-semibold text-gray-900">
+            Team
           </a>
+          
+
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Sobre
           </a>
@@ -153,7 +158,8 @@ export default function Example() {
                     <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...products, ...callsToAction].map((item) => (
+                    // callsToAction apagado
+                    {[...products ].map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"
