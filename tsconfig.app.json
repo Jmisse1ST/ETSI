@@ -1,27 +1,44 @@
 {
   "compilerOptions": {
+    // Caminho para cache de build incremental
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "target": "ES2022",
-    "useDefineForClassFields": true,
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
 
-    /* Bundler mode */
+    // Versão do JavaScript gerado e bibliotecas disponíveis
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "useDefineForClassFields": true,
+
+    // Configuração de módulos (ideal para bundlers modernos como Vite)
+    "module": "ESNext",
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
-    "noEmit": true,
+
+    // JSX moderno (React 17+)
     "jsx": "react-jsx",
 
-    /* Linting */
+    // Impede a emissão de arquivos JavaScript (quem cuida disso é o bundler)
+    "noEmit": true,
+
+    // Caminhos personalizados para imports
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    // Verificações de qualidade e segurança
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "erasableSyntaxOnly": true,
+
+    // Ignora verificação de tipos de bibliotecas externas
+    "skipLibCheck": true
   },
+
+  // Apenas arquivos dentro de "src" serão considerados
   "include": ["src"]
 }
