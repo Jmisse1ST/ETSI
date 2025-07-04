@@ -1,0 +1,51 @@
+# ------------------------------
+# 📦 Dependências e caches
+# ------------------------------
+node_modules/
+.pnpm/
+.vite/
+dist/
+.cache/
+*.log
+
+# ------------------------------
+# 📁 Arquivos de build
+# ------------------------------
+*.tsbuildinfo
+
+# ------------------------------
+# 🔒 Lockfiles (escolha só um!)
+# ------------------------------
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# ------------------------------
+# 🛠 Configurações de editores
+# ------------------------------
+.vscode/
+.idea/
+
+# ------------------------------
+# 🖥 Arquivos do sistema
+# ------------------------------
+.DS_Store        # macOS
+Thumbs.db        # Windows
+ehthumbs.db      # Windows
+Desktop.ini      # Windows
+
+# ------------------------------
+# 🔍 Testes e cobertura
+# ------------------------------
+coverage/
+*.lcov
+
+# ------------------------------
+# 🧪 Storybook (se usar)
+# ------------------------------
+storybook-static/
+
+# ------------------------------
+# 🗂 Shadcn UI (se mover componentes)
+# ------------------------------
+components.json
