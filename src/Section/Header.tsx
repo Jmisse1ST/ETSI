@@ -1,5 +1,3 @@
-// import { Link } from 'react-router-dom';
-// --- a/file:///home/jemisse/UniLib/Lib/src/Section/Header.tsx
 
 'use client'
 
@@ -32,16 +30,13 @@ import { ChevronDownIcon, /*PhoneIcon, PlayCircleIcon*/ } from '@heroicons/react
 const products = [
     { name: 'Testes', description: 'Consulte as datas das suas avaliações', href: '#', icon: ChartPieIcon },
     { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', href: '#', icon: CursorArrowRaysIcon },
-  //{ name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  //{ name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  //{ name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
 //const callsToAction = [
   //{ name: 'Watch demo', href: '#', icon: PlayCircleIcon },
   //{ name: 'Contact sales', href: '#', icon: PhoneIcon },
 //]
 
-export default function Example() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -54,6 +49,7 @@ export default function Example() {
               alt=""
               src="src/assets/logo.png"
               className="h-8 w-auto"
+              
             />
           </a>
         </div>
@@ -115,9 +111,8 @@ export default function Example() {
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Horário 
           </a>
-          <a href="" className="text-sm/6 font-semibold text-gray-900">
-            Team
-          </a>
+         
+         
           
 
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
@@ -127,7 +122,8 @@ export default function Example() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+   
+        </a>
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
@@ -160,7 +156,6 @@ export default function Example() {
                     <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    // callsToAction apagado
                     {[...products ].map((item) => (
                       <DisclosureButton
                         key={item.name}
