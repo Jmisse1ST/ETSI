@@ -7,7 +7,7 @@ const people = [
   },
   {
     name: 'Fabiao Mainato',
-    role: 'Software Developer',
+    role: 'Co-Founder / Software Developer',
     imageUrl:
       "src/assets/people/jemisse.jpg",
   },
