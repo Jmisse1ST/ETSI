@@ -1,12 +1,25 @@
+import Header from "@/Section/Header";
 
 
 const Home = () => {
     return(
-        <HomeHeader/>
+        <><Header/><TypographyH1 /></>
     )
 }
 
 export default Home;
+
+
+export function TypographyH1() {
+  return (
+    
+    <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance text-sky-400">
+        <br />
+      Seja Bem Vindo a Lib-UJC, O seu Repositório Acadêmico.
+    </h1>
+  )
+}
+
 
 /*Como uma aplicação React, a pagina Home serve como ponto de entrada para a aplicação. 
 Ele renderiza o componente HomeHeader que sera aqui abaixo criado que sera o responsável

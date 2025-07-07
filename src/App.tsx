@@ -1,10 +1,11 @@
-import Horario from "./paginas/Horario";
+import Header from "./Section/Header";
+
 
 
 
 const App = () => {
   return (
-      <Horario/>
+    <Header/>
   )
 }
 

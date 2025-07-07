@@ -1,4 +1,3 @@
-import Header from "@/Section/Header";
 
 import {
   Accordion,
@@ -6,6 +5,11 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { AlertaSemHorario } from "@/Section/Alerta"
+import PrimeiroLaboral from "@/TabelasDados/PrimeiroLaboral"
+import PrimeiroPosLaboral from "@/TabelasDados/PrimeiroPosLaboral"
+import SegundoLaboral from "@/TabelasDados/SegundoLaboral"
+import SegundoPosLaboral from "@/TabelasDados/SegundoPosLaboral"
 
 export function AccordionHorario() {
   return (
@@ -14,7 +18,7 @@ export function AccordionHorario() {
     <Accordion
       type="single"
       collapsible
-      className="w-full p-5 2xl:max-w-[50%]  mx-auto text-center"
+      className="w-full p-5 2xl:max-w-[50%]  mx-auto text-center "
       defaultValue="item-1"
       mx-auto = "lg:max-w-[50%]"
       
@@ -28,14 +32,12 @@ export function AccordionHorario() {
 
         <AccordionTrigger>Primeiro Ano</AccordionTrigger> 
         <AccordionContent className="flex flex-col gap-4 text-balance">
+          
           <p>
-            Our flagship product combines cutting-edge technology with sleek
-            design. Built with premium materials, it offers unparalleled
-            performance and reliability.
+                <PrimeiroLaboral/>
           </p>
           <p>
-            Key features include advanced processing capabilities, and an
-            intuitive user interface designed for both beginners and experts.
+                <PrimeiroPosLaboral/>                 
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -43,24 +45,21 @@ export function AccordionHorario() {
         <AccordionTrigger>Segundo Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-            We offer worldwide shipping through trusted courier partners.
-            Standard delivery takes 3-5 business days, while express shipping
-            ensures delivery within 1-2 business days.
+                <SegundoLaboral/>
+          </p>
+          <p>
+                 <SegundoPosLaboral/>
           </p>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
         <AccordionTrigger>Terceiro Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
-          <p>
-            We stand behind our products with a comprehensive 30-day return
-            policy. If you&apos;re not completely satisfied, simply return the
-            item in its original condition.
+          <p className="">
+                <AlertaSemHorario/>
           </p>
           <p>
-            Our hassle-free return process includes free return shipping and
-            full refunds processed within 48 hours of receiving the returned
-            item.
+              
           </p>
         </AccordionContent>
         
@@ -69,14 +68,7 @@ export function AccordionHorario() {
         <AccordionTrigger>Quarto Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-            We stand behind our products with a comprehensive 30-day return
-            policy. If you&apos;re not completely satisfied, simply return the
-            item in its original condition.
-          </p>
-          <p>
-            Our hassle-free return process includes free return shipping and
-            full refunds processed within 48 hours of receiving the returned
-            item.
+                 <AlertaSemHorario/>  
           </p>
         </AccordionContent>
         
@@ -84,14 +76,3 @@ export function AccordionHorario() {
     </Accordion>
   )
 }
-
-
-
-const Horario = () => {
-    return(
-        <><Header /><AccordionHorario /></>          
-    )
-}
-
-export default Horario;
-
