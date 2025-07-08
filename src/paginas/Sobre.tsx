@@ -1,9 +1,7 @@
-import Header from "@/Section/Header";
-
 const Sobre = () => {
-    return(
-        <Header/>
-    )
+  return (
+    <div>Sobre</div>
+  )
 }
 
-export default Sobre;
+export default Sobre

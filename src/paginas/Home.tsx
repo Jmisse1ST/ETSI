@@ -1,9 +1,6 @@
-import Header from "@/Section/Header";
-
-
 const Home = () => {
     return(
-        <><Header/><TypographyH1 /></>
+        <><TypographyH1 /></>
     )
 }
 
