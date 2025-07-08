@@ -1,3 +1,5 @@
+import Footer from "@/Section/Footer";
+
 const Home = () => {
     return(
         <><TypographyH1 /></>
@@ -6,14 +8,15 @@ const Home = () => {
 
 export default Home;
 
-
 export function TypographyH1() {
   return (
-    
-    <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance text-sky-400">
-        <br />
-      Seja Bem Vindo a Lib-UJC, O seu Repositório Acadêmico.
-    </h1>
+    <section>
+      <h1 className="scroll-m-20 mb-120 text-center text-4xl font-extrabold tracking-tight text-balance text-sky-400 px-5 mx-auto">
+          <br />
+        Seja Bem Vindo a Lib-UJC, O seu Repositório Acadêmico.
+      </h1>
+      <Footer />
+    </section>
   )
 }
 
