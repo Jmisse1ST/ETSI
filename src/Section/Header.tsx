@@ -2,7 +2,9 @@
 'use client'
 
 
-import { useState } from 'react'
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png'; // ajuste o caminho conforme necessário
 
 
 import {
@@ -28,8 +30,8 @@ import {
 import { ChevronDownIcon, /*PhoneIcon, PlayCircleIcon*/ } from '@heroicons/react/20/solid'
 
 const products = [
-    { name: 'Testes', description: 'Consulte as datas das suas avaliações', href: '#', icon: ChartPieIcon },
-    { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', href: '#', icon: CursorArrowRaysIcon },
+    { name: 'Testes', description: 'Consulte as datas das suas avaliações', to: "/testes", icon: ChartPieIcon },
+    { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhos", icon: CursorArrowRaysIcon },
 ]
 //const callsToAction = [
   //{ name: 'Watch demo', href: '#', icon: PlayCircleIcon },
@@ -43,15 +45,15 @@ export default function Header() {
     <header className="bg-white" >
       <nav aria-label="Global" className=" mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
-              alt=""
-              src="src/assets/logo.png"
+              alt="Logo"
+              src={ logo }
               className="h-8 w-auto"
               
             />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -84,16 +86,16 @@ export default function Header() {
                       <item.icon aria-hidden="true" className="size-6 text-gray-600 group-hover:text-indigo-600" />
                     </div>
                     <div className="flex-auto">
-                      <a href={item.href} className="block font-semibold text-gray-900">
+                      <Link to={item.to} className="block font-semibold text-gray-900">
                         {item.name}
                         <span className="absolute inset-0" />
-                      </a>
+                      </Link>
                       <p className="mt-1 text-gray-600">{item.description}</p>
                     </div>
                   </div>
                 ))}
               </div>
-              ***<div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+              <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                 { /*callsToAction.map((item) => (
                   <a
                     key={item.name}
@@ -108,18 +110,18 @@ export default function Header() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <Link to="/horario" className="text-sm/6 font-semibold text-gray-900">
             Horário 
-          </a>
+          </Link>
          
-         <a href="#" className="text-sm/6 font-semibold text-gray-900">
+         <Link to="/equipe" className="text-sm/6 font-semibold text-gray-900">
             Equipe
-          </a>
+          </Link>
           
 
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <Link to="/sobre" className="text-sm/6 font-semibold text-gray-900">
             Sobre
-          </a>
+          </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
@@ -132,14 +134,14 @@ export default function Header() {
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                alt=""
-                src="src/assets/logo.png"
+                alt="Logo"
+                src={ logo }
                 className="h-8 w-auto"
               />
-            </a>
+            </Link>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -162,7 +164,7 @@ export default function Header() {
                       <DisclosureButton
                         key={item.name}
                         as="a"
-                        href={item.href}
+                        href={item.to}
                         className="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                       >
                         {item.name}
@@ -170,24 +172,21 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-                <a
-                  href="#"
+                <Link to="/horario"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Horário 
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link to="/equipe"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Equipe
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link to="/sobre"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Sobre
-                </a>
+                </Link>
               </div>
               <div className="py-6">
                 <a

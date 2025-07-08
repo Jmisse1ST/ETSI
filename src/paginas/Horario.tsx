@@ -11,7 +11,7 @@ import PrimeiroPosLaboral from "@/TabelasDados/PrimeiroPosLaboral"
 import SegundoLaboral from "@/TabelasDados/SegundoLaboral"
 import SegundoPosLaboral from "@/TabelasDados/SegundoPosLaboral"
 
-export function AccordionHorario() {
+const Horario = () => {
   return (
     
     
@@ -76,3 +76,5 @@ export function AccordionHorario() {
     </Accordion>
   )
 }
+
+export default Horario;

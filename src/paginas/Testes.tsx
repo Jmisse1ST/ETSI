@@ -1,13 +1,10 @@
-import Header from "@/Section/Header";
-
 const Testes = () => {
     return(
-        <><Header /><AccordionTestes /></>
+        <><AccordionTestes /></>
     )
 }
 
 export default Testes;
-
 
 import {
   Accordion,
