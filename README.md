@@ -1,20 +1,23 @@
-# 🎓 UniLib – Connect, Discuss & Share Knowledge Forever!
-
+# <h1 align="center">🎓 UniLib – Connect, Discuss & Share Knowledge Forever!<h1/>
+<p align="center">
+  <img alt="🖥️ Linguagem principal" src="https://img.shields.io/github/languages/top/Jmisse1ST/ETSI?style=for-the-badge&color=orange">
+  <img alt="📦 Tamanho do repositório" src="https://img.shields.io/github/repo-size/Jmisse1ST/ETSI?style=for-the-badge&color=blue">
+  <a href="https://github.com/Jmisse1ST/ETSI/commits/master">
+    <img alt="🕒 Último commit" src="https://img.shields.io/github/last-commit/Jmisse1ST/ETSI?style=for-the-badge&color=brightgreen">
+  </a>
+  <a href="https://github.com/Jmisse1ST/ETSI/issues">
+    <img alt="🐞 Issues" src="https://img.shields.io/github/issues/Jmisse1ST/ETSI?style=for-the-badge&color=yellow">
+  </a>
+  <a href="https://github.com/Jmisse1ST/ETSI/blob/master/LICENSE">
+    <img alt="📝 Licença" src="https://img.shields.io/github/license/Jmisse1ST/ETSI?style=for-the-badge&color=green">
+  </a>
+</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Jmisse1ST/ETSI">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Jmisse1ST/ETSI">
-
-  <a href="https://github.com/Jmisse1ST/ETSI/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Jmisse1ST/ETSI">
+  <img alt="🧪 Linguagens usadas" src="https://img.shields.io/github/languages/count/Jmisse1ST/ETSI?style=for-the-badge&color=purple">
+  <a href="https://github.com/Jmisse1ST/ETSI/search?l=">
+    <img alt="📊 Ver todas as linguagens" src="https://img.shields.io/badge/📊_Ver_todas_as_linguagens-GitHub-gray?style=for-the-badge">
   </a>
-
-  <a href="https://github.com/Jmisse1ST/ETSI/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/Jmisse1ST/ETSI">
-  </a>
-
-  <img alt="GitHub" src="https://img.shields.io/github/license/Jmisse1ST/ETSI">
 </p>
 
 Welcome to **UniLib**, a revolutionary platform where **students from different universities and schools** can **create discussion rooms**, **share study materials**, and **collaborate across disciplines** — all structured by **University**, **Faculty**, **Course**, **Subject**, **Year**, and **Semester**.
@@ -48,21 +51,25 @@ In today's fast-paced academic world, students often struggle to:
 ---
 
 ## 🗂️ Platform Structure
-University
-└── Faculty
-└── Course
-└── Subject
-├── Year 1
-│ ├── Semester 1
-│ └── Semester 2
-└── Year 2...
+
+🏫 University  
+└── 🏛️ Faculty  
+    └── 🎓 Course  
+        └── 📚 Subject  
+            ├── 📅 Year 1  
+            │   ├── 🔹 Semester 1  
+            │   └── 🔹 Semester 2  
+            └── 📅 Year 2  
+                ├── 🔹 Semester 1  
+                └── 🔹 Semester 2
+
 
 ---
 
 ## 🛠️ Tech Stack (Suggested)
 
-- **Frontend**: ReactJS / VueJS  
-- **Backend**: Node.js / Spring Boot 
+- **Frontend**: ReactJS, Shadcn
+- **Backend**: Node.js 
 - **Database**: PostgreSQL / MongoDB  
 - **Storage**: Firebase / AWS S3  
 - **Authentication**: JWT / OAuth  
@@ -124,7 +131,7 @@ Let’s build UniLib into the Wikipedia of student study materials.
   </a></p>
 
   
-Follow my linkedin 👉 - <a href="https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/" target="_blank" >
+Follow my linkedin 👉  <a href="https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/" target="_blank" >
     <img align="top" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
   </a>
 
@@ -133,44 +140,3 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 Feel free to use, modify, and distribute — just don’t forget to give credit!
 
 “Alone we study, together we grow.” — UniLib Team
-
-
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-
-
