@@ -22,7 +22,7 @@
 
 Welcome to **UniLib**, a revolutionary platform where **students from different universities and schools** can **create discussion rooms**, **share study materials**, and **collaborate across disciplines** — all structured by **University**, **Faculty**, **Course**, **Subject**, **Year**, and **Semester**.
 
-No more losing PDFs, notes, or past papers. On EduHub, **your knowledge lives forever**.
+No more losing PDFs, notes, or past papers. On UniLib, **your knowledge lives forever**.
 
 ---
 
@@ -68,7 +68,7 @@ In today's fast-paced academic world, students often struggle to:
 
 ## 🛠️ Tech Stack (Suggested)
 
-- **Frontend**: ReactJS, Shadcn
+- **Frontend**: ReactJS, Shadcn, Tailwind CSS
 - **Backend**: Node.js 
 - **Database**: PostgreSQL / MongoDB  
 - **Storage**: Firebase / AWS S3  
