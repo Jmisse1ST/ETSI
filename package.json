@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "pnpm approve-builds --accept @tailwindcss/oxide esbuild"
+    "postinstall": "pnpm approve-builds @tailwindcss/oxide esbuild"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
