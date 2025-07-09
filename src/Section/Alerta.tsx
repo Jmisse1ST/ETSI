@@ -22,3 +22,22 @@ export function AlertaSemHorario() {
     </div>
   )
 }
+
+
+
+export function AlertaSemTestes(){
+  return (
+    <div className="grid w-full max-w-xl items-start gap-4 center mx-auto">
+      
+    
+      <Alert variant="destructive">
+        <AlertCircleIcon />
+        <AlertTitle>Sem Datas Disponível!</AlertTitle>
+        <AlertDescription>
+          <p>Por favor, consulte diretamente na Faculdade de Ciências e Tecnologias.</p>
+           
+        </AlertDescription>
+      </Alert>
+    </div>
+  )
+}

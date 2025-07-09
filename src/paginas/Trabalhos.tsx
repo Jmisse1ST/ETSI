@@ -13,6 +13,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { AlertaSemTestes } from "@/Section/Alerta";
 
 export function AccordionTrabalho() {
   return (
@@ -29,13 +30,10 @@ export function AccordionTrabalho() {
         <AccordionTrigger>Primeiro Ano</AccordionTrigger> 
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-            Our flagship product combines cutting-edge technology with sleek
-            design. Built with premium materials, it offers unparalleled
-            performance and reliability.
+               <AlertaSemTestes/>
           </p>
           <p>
-            Key features include advanced processing capabilities, and an
-            intuitive user interface designed for both beginners and experts.
+            
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -43,9 +41,7 @@ export function AccordionTrabalho() {
         <AccordionTrigger>Segundo Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-            We offer worldwide shipping through trusted courier partners.
-            Standard delivery takes 3-5 business days, while express shipping
-            ensures delivery within 1-2 business days.
+                <AlertaSemTestes/>
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -53,14 +49,10 @@ export function AccordionTrabalho() {
         <AccordionTrigger>Terceiro Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-            We stand behind our products with a comprehensive 30-day return
-            policy. If you&apos;re not completely satisfied, simply return the
-            item in its original condition.
+                 <AlertaSemTestes/>
           </p>
           <p>
-            Our hassle-free return process includes free return shipping and
-            full refunds processed within 48 hours of receiving the returned
-            item.
+                 
           </p>
         </AccordionContent>
         
@@ -69,14 +61,10 @@ export function AccordionTrabalho() {
         <AccordionTrigger>Quarto Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-            We stand behind our products with a comprehensive 30-day return
-            policy. If you&apos;re not completely satisfied, simply return the
-            item in its original condition.
+                  <AlertaSemTestes/>
           </p>
           <p>
-            Our hassle-free return process includes free return shipping and
-            full refunds processed within 48 hours of receiving the returned
-            item.
+            
           </p>
         </AccordionContent>
         
