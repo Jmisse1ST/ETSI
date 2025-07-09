@@ -1,6 +1,6 @@
 const Home = () => {
     return(
-        <><TypographyH1 /><InputDemo /></>
+        <><><TypographyH1 /><InputHome/></><AlertHome /></>
     )
 }
 
@@ -10,7 +10,8 @@ export default Home;
 export function TypographyH1() {
   return (
     
-    <><h5 className="scroll-m-20 text-center text-1xl font-extrabold tracking-tight text-balance text-sky-400">
+    <><h5 className="scroll-m-20 text-center text-1xl
+     font-extrabold tracking-tight text-balance text-sky-400">
       <br />
       Seja Bem Vindo a Lib-UJC,  O seu Repositório Acadêmico
     </h5><p className="text-muted-foreground text-sm text-center">Feito por estudantes para estudantes.</p></>
@@ -18,49 +19,66 @@ export function TypographyH1() {
   )
 }
 
-
 import { Input } from "@/components/ui/input"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, SelectGroup, SelectLabel } from "@/components/ui/select"
 
-export function InputDemo() {
-  return ( <div className="p-6">
+export function InputHome() {
+  return (
+    <div className="p-6 flex justify-end gap-4">
       <Input 
         type="email" 
         placeholder="Encontre o teu material" 
-        className="w-full max-w-sm"
+        className="flex-[3]
+        " 
       />
+      
+      <Select>
+        <SelectTrigger className="flex-[0.3]">
+          <SelectValue placeholder="" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectGroup>
+            <SelectLabel>Ano</SelectLabel>
+            <SelectItem value="apple">Primeiro</SelectItem>
+            <SelectItem value="banana">Segundo</SelectItem>
+            <SelectItem value="orange">Terceiro</SelectItem>
+            <SelectItem value="grape">Quarto</SelectItem>
+            <SelectItem value="mango">Quinto</SelectItem>
+          </SelectGroup>
+        </SelectContent>
+      </Select>
+  
     </div>
   )
-} 
+}
 
-
+import { CheckCircle2Icon} from "lucide-react"
 
 import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@/components/ui/alert"
 
-export function SelectDemo() {
+export function AlertHome() {
   return (
-    <Select>
-      <SelectTrigger className="w-[180px]">
-        <SelectValue placeholder="Select a fruit" />
-      </SelectTrigger>
-      <SelectContent>
-        <SelectGroup>
-          <SelectLabel>Fruits</SelectLabel>
-          <SelectItem value="apple">Apple</SelectItem>
-          <SelectItem value="banana">Banana</SelectItem>
-          <SelectItem value="blueberry">Blueberry</SelectItem>
-          <SelectItem value="grapes">Grapes</SelectItem>
-          <SelectItem value="pineapple">Pineapple</SelectItem>
-        </SelectGroup>
-      </SelectContent>
-    </Select>
+    <div className="grid w-full max-w-xl items-start gap-2
+     p-10
+     mx-auto mt-30
+     "
+     >
+      <Alert>
+        <CheckCircle2Icon />
+        <AlertTitle>Repositório Vazio!!</AlertTitle>
+        <AlertDescription className="text-sky-400">
+         Poderá baixar as fichas de apoio assim que
+          as aulas do segundo semestre iniciarem.
+        </AlertDescription>
+        <AlertTitle>Boas férias Enginner!!</AlertTitle>
+      </Alert>
+    
+    </div>
   )
 }
+
 
