@@ -1,21 +1,23 @@
+import Footer from "@/Section/Footer";
+
 const Home = () => {
+
     return(
         <><><TypographyH1 /><InputHome/></><AlertHome /></>
+
     )
 }
 
 export default Home;
 
-
 export function TypographyH1() {
   return (
-    
-    <><h5 className="scroll-m-20 text-center text-1xl
-     font-extrabold tracking-tight text-balance text-sky-400">
+
+    <><h5 className="scroll-m-20 text-center text-1xl font-extrabold tracking-tight text-balance text-sky-400">
+
       <br />
       Seja Bem Vindo a Lib-UJC,  O seu Repositório Acadêmico
     </h5><p className="text-muted-foreground text-sm text-center">Feito por estudantes para estudantes.</p></>
-
   )
 }
 
@@ -50,9 +52,11 @@ export function InputHome() {
   
     </div>
   )
+
 }
 
 import { CheckCircle2Icon} from "lucide-react"
+
 
 import {
   Alert,
@@ -79,6 +83,9 @@ export function AlertHome() {
     
     </div>
   )
+
 }
+
+
 
 

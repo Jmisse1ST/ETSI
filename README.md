@@ -68,7 +68,7 @@ In today's fast-paced academic world, students often struggle to:
 
 ## 🛠️ Tech Stack (Suggested)
 
-- **Frontend**: ReactJS, Shadcn, Tailwind CSS
+- **Frontend**: ReactJS, Shadcn, TailwindCSS, CSS3, HTML5, Typescript 
 - **Backend**: Node.js 
 - **Database**: PostgreSQL / MongoDB  
 - **Storage**: Firebase / AWS S3  

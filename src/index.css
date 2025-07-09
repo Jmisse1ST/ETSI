@@ -119,3 +119,28 @@
   }
 }
 
+@layer components {
+  /*Footer*/
+  .footer-section {
+    @apply relative;
+  }
+
+  .footer-bg {
+    @apply mx-auto px-5 pt-5 bg-sky-400;
+  }
+
+  .footer-social {
+    @apply md:flex md:gap-3 justify-center items-center;
+  }
+  /*Footer ends*/
+
+  .footer-logo {
+    @apply md:w-30 w-40 h-60 md:h-40 md:pt-10 pt-15 ml-[-10px];
+  }
+}
+
+/*Footer*/
+.elemento {
+  clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
+}
+/*Footer ends*/
