@@ -12,7 +12,10 @@ export function TypographyH1() {
   return (
 
     <><h5 className="scroll-m-20 text-center text-1xl font-extrabold tracking-tight text-balance text-sky-400">
-
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       Seja Bem Vindo a Lib-UJC,  O seu Repositório Acadêmico
     </h5><p className="text-muted-foreground text-sm text-center">Feito por estudantes para estudantes.</p></>
