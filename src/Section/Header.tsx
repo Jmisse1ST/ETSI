@@ -1,11 +1,8 @@
-
 'use client'
-
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png'; // ajuste o caminho conforme necessário
-
+import logo from '../assets/logo.png';
 
 import {
   Dialog,
@@ -19,31 +16,24 @@ import {
   PopoverPanel,
 } from '@headlessui/react'
 import {
-  //ArrowPathIcon,
   Bars3Icon,
   ChartPieIcon,
   CursorArrowRaysIcon,
-  //FingerPrintIcon,
-  //SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, /*PhoneIcon, PlayCircleIcon*/ } from '@heroicons/react/20/solid'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const products = [
     { name: 'Testes', description: 'Consulte as datas das suas avaliações', to: "/testes", icon: ChartPieIcon },
-    { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhos", icon: CursorArrowRaysIcon },
+    { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhos", icon: CursorArrowRaysIcon }
 ]
-//const callsToAction = [
-  //{ name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  //{ name: 'Contact sales', href: '#', icon: PhoneIcon },
-//]
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white" >
-      <nav aria-label="Global" className=" mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+    <header className="bg-white/70 backdrop-blur-md fixed top-0 left-0 w-full z-50 shadow-sm transition-colors duration-300">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
@@ -96,16 +86,6 @@ export default function Header() {
                 ))}
               </div>
               <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                { /*callsToAction.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100"
-                  >
-                    <item.icon aria-hidden="true" className="size-5 flex-none text-gray-400" />
-                    {item.name}
-                  </a>
-                ))*/}
               </div>
             </PopoverPanel>
           </Popover>
@@ -124,10 +104,10 @@ export default function Header() {
           </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <Link to="/login" className="text-sm/6 font-semibold text-gray-900">
             Log in <span aria-hidden="true">&rarr;</span>
    
-        </a>
+        </Link>
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">

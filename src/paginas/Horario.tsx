@@ -1,4 +1,3 @@
-
 import {
   Accordion,
   AccordionContent,
@@ -18,18 +17,14 @@ import TerceiroPosLaboral from "@/TabelasDados/TerceiroPosLaboral"
 
 const Horario = () => {
   return (
-    
-    
+    <section className="mt-20">
+
     <Accordion
       type="single"
       collapsible
       className="w-full p-5 2xl:max-w-[50%]  mx-auto text-center "
       defaultValue="item-1"
-      mx-auto = "lg:max-w-[50%]"
-      
-
-
-    >
+      mx-auto = "lg:max-w-[50%]">
       
       <AccordionItem value="item-1">
 
@@ -92,6 +87,7 @@ const Horario = () => {
         
       </AccordionItem>
     </Accordion>
+    </section>
   )
 }
 

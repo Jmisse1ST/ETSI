@@ -1,6 +1,8 @@
 const Trabalhos = () => {
     return(
-        <><AccordionTrabalho/></>
+        <>
+        <div className="mt-20"><AccordionTrabalho/></div>
+        </>
     )
 }
 

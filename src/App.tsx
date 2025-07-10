@@ -6,12 +6,14 @@ import Team from "./Section/Team";
 import Trabalhos from "./paginas/Trabalhos";
 import Testes from "./paginas/Testes";
 import Home from "./paginas/Home";
+import Login from "./paginas/Login";
 
 const App = () => {
   return (
     <>
       <Header/>
       <Routes>
+        <Route path="/login" element={ <Login /> } />
         <Route path="/" element={ <Home />} />
         <Route path="/sobre" element={ <Sobre /> } />
         <Route path="/horario" element={ <Horario />} />

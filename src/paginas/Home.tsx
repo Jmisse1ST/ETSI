@@ -1,5 +1,3 @@
-import Footer from "@/Section/Footer";
-
 const Home = () => {
 
     return(
