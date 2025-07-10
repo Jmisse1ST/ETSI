@@ -1,32 +1,11 @@
-import linkedin from '../assets/linkedin.svg'
-import github from '../assets/github.svg'
-import mail from '../assets/mail.svg'
-import whatsapp from '../assets/whatsapp.svg'
-import x from '../assets/x.svg'
-import location from '../assets/location.png'
-import logo from '../assets/logo-fabio.png'
-import instagram from '../assets/instagram.svg'
-import youtube from '../assets/youtube.svg'
-
+import linkedin from '../assets/linkedin.svg';
+import x from '../assets/x.svg';
+import logo from '../assets/logo-fabio.png';
+import whatsapp from '../assets/whatsapp.svg';
 const footer_img = [
     {
         img: linkedin,
         alt: 'Linkedin',
-        link: ''
-    },
-    {
-        img: github,
-        alt: 'Github',
-        link: ''
-    },
-    {
-        img: mail,
-        alt: 'E-mail',
-        link: ''
-    },
-    {
-        img: whatsapp,
-        alt: 'Whatsapp',
         link: ''
     },
     {
@@ -35,19 +14,9 @@ const footer_img = [
         link: ''
     },
     {
-        img: youtube,
-        alt: 'Youtube',
-        link: ''
-    },
-    {
-        img: instagram,
-        alt: 'Instagram',
-        link: ''
-    },
-    {
-        img: location,
-        alt: 'Location',
-        link: ''
+        img: whatsapp,
+        alt: 'WhatsApp',
+        link: ''   
     }
 ];
 
