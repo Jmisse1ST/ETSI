@@ -3,7 +3,7 @@ const people = [
     name: 'Jemisse Macuacua',
     role: 'Founder / Software Developer And CTO',
     imageUrl: "src/assets/People/jemisse.jpeg",
-    url: '',  
+    url: 'https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/',  
   },
   {
     name: 'Fabiao Mainato',
