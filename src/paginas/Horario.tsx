@@ -7,10 +7,7 @@ import {
 import { AlertaSemHorario } from "@/Section/Alerta"
 import PrimeiroLaboral from "@/TabelasDados/PrimeiroLaboral"
 import PrimeiroPosLaboral from "@/TabelasDados/PrimeiroPosLaboral"
-import QuartoLaboral from "@/TabelasDados/QuartoLaboral"
 import QuartoPosLaboral from "@/TabelasDados/QuartoPosLaboral"
-import SegundoLaboral from "@/TabelasDados/SegundoLaboral"
-import SegundoPosLaboral from "@/TabelasDados/SegundoPosLaboral"
 import TerceiroLaboral from "@/TabelasDados/TerceiroLabora"
 import TerceiroPosLaboral from "@/TabelasDados/TerceiroPosLaboral"
 
