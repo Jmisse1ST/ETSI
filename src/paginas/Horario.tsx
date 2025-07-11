@@ -68,7 +68,7 @@ const Horario = () => {
         <AccordionTrigger>Quarto Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
          <p>
-                <QuartoLaboral/>
+              
           </p>
           <p>
                 <QuartoPosLaboral/>      

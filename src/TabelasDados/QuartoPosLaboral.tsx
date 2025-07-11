@@ -13,50 +13,50 @@ import {
 const horas = [
   {
     horas: "17:15 -18:00",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
+    Segunda: "Segurança de redes",
+    Terca: "Projecto Final 2",
+    Quarta: "Segurança de redes",
+    Quinta: "Ética e Deontologia Profissional",
     Sexta: "",
   },
   {
     horas: "18:00 - 18:45",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
+    Segunda: "Segurança de redes",
+    Terca: "Projecto Final 2",
+    Quarta: "Segurança de redes",
+    Quinta: "Ética e Deontologia Profissional",
     Sexta: "",
   },
   {
     horas: "18:50 - 19:35",
     Segunda: "",
-    Terca: "",
+    Terca: "Ética e Deontologia Profissional",
     Quarta: "",
-    Quinta: "",
+    Quinta: "Inteligência Artificial",
     Sexta: "",
   },
   {
     horas: "19:35 - 20:20",
     Segunda: "",
-    Terca: "",
+    Terca: "Ética e Deontologia Profissional",
     Quarta: "",
-    Quinta: "",
+    Quinta: "Projecto Final 2",
     Sexta: "",
   },
   {
     horas: "20:30 - 21:15",
     Segunda: "",
-    Terca: "",
+    Terca: "Inteligência Artificial",
     Quarta: "",
-    Quinta: "",
+    Quinta: "Inteligência Artificial",
     Sexta: "",
   },
   {
     horas: "21:15 - 22:00",
     Segunda: "",
-    Terca: "",
+    Terca: "Inteligência Artificial",
     Quarta: "",
-    Quinta: "",
+    Quinta: "Projecto Final 2",
     Sexta: "",
   },
   
@@ -65,7 +65,7 @@ const horas = [
 function QuartoPosLaboral(){
   return (
     <Table>
-      <TableCaption>POS-LABORAL</TableCaption>
+      <TableCaption>POS-LABORAL : Sala: Anexa 1, Sala 1 & Sala: 3 R/C</TableCaption>
       <TableHeader className="">
         <TableRow>
           <TableHead className="w-[100px] text-sky-400">horas</TableHead>

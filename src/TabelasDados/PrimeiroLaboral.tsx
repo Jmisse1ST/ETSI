@@ -15,49 +15,49 @@ const horas = [
     horas: "07:00 - 07:45",
     Segunda: "Programacao 1",
     Terca: "Logica Computacional",
-    Quarta: "rogramacao 1",
+    Quarta: "Programacao 1",
     Quinta: "Metedologia de Pesquisa",
-    Sexta: "Testando Segundo",
+    Sexta: "Analise Matematica 2",
   },
   {
     horas: "07:45 - 08:30",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Programação 1",
+    Terca: "Lógica Computacional",
+    Quarta: "`Programação 1",
+    Quinta: "Meteorologia de Pesquisa",
+    Sexta: "Análise Matemática 2",
   },
   {
     horas: "08:35 - 09:20",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Inglês 2",
+    Terca: "Probabilidade Estatística",
+    Quarta: "Inglês 2",
+    Quinta: "Lógica Computacional",
+    Sexta: "Programação 1",
   },
   {
     horas: "09:20 - 10:05",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Inglês 2",
+    Terca: "Probabilidade Estatística",
+    Quarta: "Inglês 2",
+    Quinta: "Lógica Computacional",
+    Sexta: "Programação 1",
   },
   {
     horas: "10:25 - 11:10",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Arquitetura de Computadores",
+    Terca: "Meteorologia de Pesquisa",
+    Quarta: "Analise Matematica 2",
+    Quinta: "Probabilidade Estatística",
+    Sexta: "Arquitetura de Computadores",
   },
   {
     horas: "11:15 - 12:00",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Arquitetura de Computadores",
+    Terca: "Meteorologia de Pesquisa",
+    Quarta: "Analise Matematica 2",
+    Quinta: "Probabilidade Estatística",
+    Sexta: "Arquitetura de Computadores",
   },
   
 ]
@@ -65,7 +65,7 @@ const horas = [
 function PrimeiroLaboral() {
   return (
     <Table>
-      <TableCaption>LABORAL</TableCaption>
+      <TableCaption>LABORAL : Sala Anfiteatro-1</TableCaption>
       <TableHeader className="">
         <TableRow>
           <TableHead className="w-[100px] text-sky-400">horas</TableHead>
