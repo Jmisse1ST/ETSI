@@ -7,12 +7,14 @@ import Trabalhos from "./paginas/Trabalhos";
 import Testes from "./paginas/Testes";
 import Home from "./paginas/Home";
 import Login from "./paginas/Login";
+import CriarConta from "./paginas/CriarConta";
 
 const App = () => {
   return (
     <>
       <Header/>
       <Routes>
+        <Route path="/criarConta" element={ <CriarConta /> } />
         <Route path="/login" element={ <Login /> } />
         <Route path="/" element={ <Home />} />
         <Route path="/sobre" element={ <Sobre /> } />

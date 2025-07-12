@@ -1,3 +1,5 @@
+import { ChartPieIcon, CursorArrowRaysIcon } from '@heroicons/react/24/outline';
+
 const people = [
   {
     name: 'Jemisse Macuacua',
@@ -11,6 +13,7 @@ const people = [
     imageUrl: "src/assets/fabio_blue.png",
     url: 'https://fabiaomainato.vercel.app/',
     alt: 'Fabiao Mainato',
+    smallImage: true,
   },
   {
     name: 'Layton Tesoura',
@@ -21,10 +24,17 @@ const people = [
 ];
 
 const whoWeAre = {
-  title: 'Quem Somos',
+  title: 'Quem Somos?',
   description: 'Somos um grupo dinâmico de indivíduos apaixonados por tecnologia e comprometidos em oferecer as melhores experiências para a comunidade acadêmica.'
 };
+
+const products = [
+    { name: 'Testes', description: 'Consulte as datas das suas avaliações', to: "/testes", icon: ChartPieIcon },
+    { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhos", icon: CursorArrowRaysIcon }
+];
+
 export {
     people,
-    whoWeAre
+    whoWeAre,
+    products
 };

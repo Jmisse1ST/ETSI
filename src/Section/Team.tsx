@@ -17,11 +17,13 @@ export default function Team() {
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
             {people.map((person) => (
               <li key={person.name}>
-                <div className="flex items-center gap-x-6">
+                <div className="flex items-center gap-x-6 hover:scale-105 transition-transform duration-300 ease-in-out">
                   <a href={person.url} target="_blank" rel="noopener noreferrer"> 
-                    <img alt={person.alt} src={person.imageUrl} className="size-16 rounded-full w-40 h-30" />
+                    <img alt={person.alt} src={person.imageUrl} 
+                    className={`size-16 rounded-full
+                      ${person.smallImage ? 'w-70 h-40 md:mt-[-25px] md:ml-0 ml-[-15px]' : 'w-30 h-30'}`} />
                   </a>
-                  <div>
+                  <div className={`${person.smallImage ? 'md:ml-0 ml-[-40px]' : ''}`}>
                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">{person.name}</h3>
                     <a href={person.url} target="_blank" rel="noopener noreferrer"><p className="text-sm/6 font-semibold text-indigo-600">{person.role}</p></a>
                   </div>
@@ -31,14 +33,6 @@ export default function Team() {
           </ul>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Footer />
     </section>
   )
