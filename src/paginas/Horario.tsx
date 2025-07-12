@@ -7,10 +7,7 @@ import {
 import { AlertaSemHorario } from "@/Section/Alerta"
 import PrimeiroLaboral from "@/TabelasDados/PrimeiroLaboral"
 import PrimeiroPosLaboral from "@/TabelasDados/PrimeiroPosLaboral"
-import QuartoLaboral from "@/TabelasDados/QuartoLaboral"
 import QuartoPosLaboral from "@/TabelasDados/QuartoPosLaboral"
-import SegundoLaboral from "@/TabelasDados/SegundoLaboral"
-import SegundoPosLaboral from "@/TabelasDados/SegundoPosLaboral"
 import TerceiroLaboral from "@/TabelasDados/TerceiroLabora"
 import TerceiroPosLaboral from "@/TabelasDados/TerceiroPosLaboral"
 
@@ -45,10 +42,10 @@ const Horario = () => {
         <AccordionTrigger>Segundo Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-                <SegundoLaboral/>
+                 <AlertaSemHorario/>  
           </p>
           <p>
-                 <SegundoPosLaboral/>
+                
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -68,7 +65,7 @@ const Horario = () => {
         <AccordionTrigger>Quarto Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
          <p>
-                <QuartoLaboral/>
+              
           </p>
           <p>
                 <QuartoPosLaboral/>      

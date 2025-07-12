@@ -1,10 +1,9 @@
 const people = [
   {
     name: 'Jemisse Macuacua',
-    role: 'Founder / Software Developer',
-    imageUrl: "src/assets/jemisse.jpg",
-    url: '',  
-    alt: 'Jemisse Macuacua',
+    role: 'Founder / Software Developer And CTO',
+    imageUrl: "src/assets/People/jemisse.jpeg",
+    url: 'https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/',  
   },
   {
     name: 'Fabiao Mainato',
@@ -12,6 +11,12 @@ const people = [
     imageUrl: "src/assets/fabio_blue.png",
     url: 'https://fabiaomainato.vercel.app/',
     alt: 'Fabiao Mainato',
+  },
+  {
+    name: 'Layton Tesoura',
+    role: 'Designer / Graphic Designer',
+    imageUrl: "src/assets/People/Layton.png",
+    url: ''
   },
 ];
 

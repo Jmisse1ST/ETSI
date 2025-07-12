@@ -31,6 +31,14 @@ export default function Team() {
           </ul>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Footer />
     </section>
   )

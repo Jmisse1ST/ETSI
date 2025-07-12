@@ -13,51 +13,51 @@ import {
 const horas = [
   {
     horas: "17:15 -18:00",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Gestão de SI",
+    Terca: "Laboratório Eng. De Software",
+    Quarta: "Gestão de SI",
+    Quinta: "Paradigma de Programação",
+    Sexta: "Eng. De Software",
   },
   {
     horas: "18:00 - 18:45",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Gestão de SI",
+    Terca: "Laboratório Eng. De Software",
+    Quarta: "Gestão de SI",
+    Quinta: "Paradigma de Programação",
+    Sexta: "Eng. De Software",
   },
   {
     horas: "18:50 - 19:35",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Eng. De Software",
+    Terca: "A. De Sistemas LINUX",
+    Quarta: "Eng. De Software",
+    Quinta: "Laboratório Eng. De Software",
+    Sexta: "P. Orientanda a Objectos Avançada",
   },
   {
     horas: "19:35 - 20:20",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Eng. De Software",
+    Terca: "A. De Sistemas LINUX",
+    Quarta: "Eng. De Software",
+    Quinta: "Laboratório Eng. De Software",
+    Sexta: "P. Orientanda a Objectos Avançada",
   },
   {
     horas: "20:30 - 21:15",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Paradigma de Programação",
+    Terca: "P. Orientanda a Objectos Avançada",
+    Quarta: "P. Orientanda a Objectos Avançada",
+    Quinta: "A. De Sistemas LINUX",
+    Sexta: "Gestão de SI",
   },
   {
     horas: "21:15 - 22:00",
-    Segunda: "",
-    Terca: "",
-    Quarta: "",
-    Quinta: "",
-    Sexta: "",
+    Segunda: "Paradigma de Programação",
+    Terca: "P. Orientanda a Objectos Avançada",
+    Quarta: "P. Orientanda a Objectos Avançada",
+    Quinta: "A. De Sistemas LINUX",
+    Sexta: "Gestão de SI",
   },
   
 ]
@@ -65,7 +65,7 @@ const horas = [
 function TerceiroPosLaboral(){
   return (
     <Table>
-      <TableCaption>POS-LABORAL</TableCaption>
+      <TableCaption>ENGENHARIA DE SOFTWARE : Laboratório & Sala: 3 R/C</TableCaption>
       <TableHeader className="">
         <TableRow>
           <TableHead className="w-[100px] text-sky-400">horas</TableHead>
