@@ -1,7 +1,12 @@
 const Home = () => {
 
     return(
-        <><><TypographyH1 /><InputHome/></><AlertHome /></>
+        <>
+          <section className="mt-20">
+
+          <TypographyH1 /><InputHome/><AlertHome />
+          </section>
+        </>
 
     )
 }

@@ -19,7 +19,7 @@ export default function Team() {
               <li key={person.name}>
                 <div className="flex items-center gap-x-6">
                   <a href={person.url} target="_blank" rel="noopener noreferrer"> 
-                    <img alt="" src={person.imageUrl} className="size-16 rounded-full" />
+                    <img alt={person.alt} src={person.imageUrl} className="size-16 rounded-full w-40 h-30" />
                   </a>
                   <div>
                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">{person.name}</h3>
