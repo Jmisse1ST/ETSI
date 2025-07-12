@@ -10,7 +10,7 @@ const people = [
   {
     name: 'Fabiao Mainato',
     role: 'Co-Founder / Software Developer And Product Manager',
-    imageUrl: "src/assets/fabio_blue.png",
+    imageUrl: "src/assets/People/fabio_blue.png",
     url: 'https://fabiaomainato.vercel.app/',
     alt: 'Fabiao Mainato',
     smallImage: true,

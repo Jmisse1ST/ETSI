@@ -8,21 +8,27 @@ const Login = () => {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      if (email === "admin@unilib.com" && password === "admin123") {
-        
-        alert("Login realizado com sucesso!");
+    try {
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, senha: password }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        alert(data.message || "Login realizado com sucesso!");
       } else {
-        setError("Email ou senha inválidos.");
+        setError(data.error || "Email ou senha inválidos.");
       }
-    }, 1000);
+    } catch {
+      setError("Erro de conexão.");
+    }
+    setLoading(false);
   };
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-100 to-blue-200 px-5">
       <form

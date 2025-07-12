@@ -7,7 +7,7 @@ const CriarConta = () => {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
     if (!email && !telefone) {
@@ -15,10 +15,22 @@ const CriarConta = () => {
       return;
     }
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      alert("Conta criada com sucesso!");
-    }, 1000);
+    try {
+      const res = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, telefone, senha: password }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        alert("Conta criada com sucesso!");
+      } else {
+        setError(data.error || "Erro ao criar conta.");
+      }
+    } catch {
+      setError("Erro de conexão.");
+    }
+    setLoading(false);
   };
 
   return (
