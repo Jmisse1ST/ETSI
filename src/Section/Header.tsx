@@ -89,16 +89,15 @@ export default function Header() {
               </div>
             </PopoverPanel>
           </Popover>
-
+          
           <Link to="/horario" className="text-sm/6 font-semibold text-gray-900">
             Horário 
           </Link>
-         
+          
          <Link to="/equipe" className="text-sm/6 font-semibold text-gray-900">
             Equipe
           </Link>
-          
-
+        
           <Link to="/sobre" className="text-sm/6 font-semibold text-gray-900">
             Sobre
           </Link>
