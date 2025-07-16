@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -7,23 +8,29 @@ const Login = () => {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      if (email === "admin@unilib.com" && password === "admin123") {
-        
-        alert("Login realizado com sucesso!");
+    try {
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, senha: password }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        alert(data.message || "Login realizado com sucesso!");
       } else {
-        setError("Email ou senha inválidos.");
+        setError(data.error || "Email ou senha inválidos.");
       }
-    }, 1000);
+    } catch {
+      setError("Erro de conexão.");
+    }
+    setLoading(false);
   };
-
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-100 to-blue-200">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-100 to-blue-200 px-5">
       <form
         onSubmit={handleSubmit}
         className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm flex flex-col gap-4"
@@ -63,6 +70,9 @@ const Login = () => {
         >
           {loading ? "Entrando..." : "Entrar"}
         </button>
+        <div className="flex items-center justify-center">
+          <Link to="/criarConta" className="text-xs text-sky-500 text-center underline ">Criar Conta</Link>
+        </div>
         <div className="text-xs text-gray-500 text-center mt-2">
           Esqueceu a senha? <a href="#" className="text-sky-500 hover:underline">Recuperar</a>
         </div>

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
+import { products } from '../constants/index';
 
 import {
   Dialog,
@@ -17,20 +18,12 @@ import {
 } from '@headlessui/react'
 import {
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
-const products = [
-    { name: 'Testes', description: 'Consulte as datas das suas avaliações', to: "/testes", icon: ChartPieIcon },
-    { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhos", icon: CursorArrowRaysIcon }
-]
-
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <header className="bg-white/70 backdrop-blur-md fixed top-0 left-0 w-full z-50 shadow-sm transition-colors duration-300">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
@@ -40,9 +33,7 @@ export default function Header() {
             <img
               alt="Logo"
               src={ logo }
-              className="h-8 w-auto"
-              
-            />
+              className="h-8 w-auto"/>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -168,12 +159,11 @@ export default function Header() {
                 </Link>
               </div>
               <div className="py-6">
-                <a
-                  href="#"
+                <Link to="/login"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Log in
-                </a>
+                </Link>
               </div>
             </div>
           </div>
