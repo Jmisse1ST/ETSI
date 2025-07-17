@@ -5,11 +5,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { AlertaSemHorario } from "@/Section/Alerta"
-import PrimeiroLaboral from "@/TabelasDados/PrimeiroLaboral"
-import PrimeiroPosLaboral from "@/TabelasDados/PrimeiroPosLaboral"
-import QuartoPosLaboral from "@/TabelasDados/QuartoPosLaboral"
-import TerceiroLaboral from "@/TabelasDados/TerceiroLabora"
-import TerceiroPosLaboral from "@/TabelasDados/TerceiroPosLaboral"
+import PrimeiroLaboral from "../TabelasDados/Horario/PrimeiroLaboral";
+import PrimeiroPosLaboral from "../TabelasDados/Horario/PrimeiroPosLaboral";
+import TerceiroLaboral from "../TabelasDados/Horario/TerceiroLabora";
+import TerceiroPosLaboral from "../TabelasDados/Horario/TerceiroPosLaboral";
+import QuartoPosLaboral from "../TabelasDados/Horario/QuartoPosLaboral";
 
 
 const Horario = () => {

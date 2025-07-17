@@ -1,13 +1,16 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./Section/Header";
 import Sobre from "./paginas/Sobre";
-import Horario from "./paginas/Horario";
+
 import Team from "./Section/Team";
-import Trabalhos from "./paginas/Trabalhos";
-import Testes from "./paginas/Testes";
+
+
 import Home from "./paginas/Home";
 import Login from "./paginas/Login";
 import CriarConta from "./paginas/CriarConta";
+import Testes from "./ETSI/paginas/Testes";
+import Trabalhos from "./ETSI/paginas/Trabalhos";
+import Horario from "./ETSI/paginas/Horario";
 
 const App = () => {
   return (

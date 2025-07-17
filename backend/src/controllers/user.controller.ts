@@ -1,5 +1,5 @@
-import db from "../db.js";
-import bcrypt from "bcrypt";
+import db from "../db.ts";
+/*import bcrypt from "bcrypt";
 
 export const registerUser = async (req, res) => {
   const { email, telefone, senha } = req.body;
@@ -67,4 +67,4 @@ export const loginUser = async (req, res) => {
     console.error(err);
     res.status(500).json({ error: "Erro interno do servidor." });
   }
-};
+};*/
