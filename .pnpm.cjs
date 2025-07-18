@@ -1,4 +1,5 @@
+
 module.exports = {
-  ignoredBuiltDependencies: [],
-  allowedBuiltDependencies: ["bcrypt"]
+  allowedBuiltDependencies: ["@tailwindcss/oxide", "esbuild", "bcrypt"],
+  ignoredBuiltDependencies: []
 }
