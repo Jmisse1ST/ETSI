@@ -1,8 +1,23 @@
 {
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/"
-        }
-    ]
+  "build": {
+    "env": {
+      "PNPM_DISABLE_PREFLIGHT": "1",
+      "PNPM_FLAGS": "--ignore-scripts"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/"
+    }
+  ]
 }
