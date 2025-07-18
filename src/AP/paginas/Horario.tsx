@@ -4,12 +4,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import PrimeiroLaboral from "@/ETSI/TabelasDados/Horario/PrimeiroLaboral";
 import { AlertaSemHorario } from "@/Section/Alerta"
-import PrimeiroLaboral from "../TabelasDados/Horario/PrimeiroLaboral";
-import PrimeiroPosLaboral from "../TabelasDados/Horario/PrimeiroPosLaboral";
-import TerceiroLaboral from "../TabelasDados/Horario/TerceiroLabora";
-import TerceiroPosLaboral from "../TabelasDados/Horario/TerceiroPosLaboral";
-import QuartoPosLaboral from "../TabelasDados/Horario/QuartoPosLaboral";
 
 
 const Horario = () => {
@@ -34,7 +30,7 @@ const Horario = () => {
                 <PrimeiroLaboral/>
           </p>
           <p>
-                <PrimeiroPosLaboral/>                 
+                                
           </p>
         </AccordionContent>
       </AccordionItem>
@@ -53,10 +49,10 @@ const Horario = () => {
         <AccordionTrigger>Terceiro Ano</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p className="">
-              <TerceiroLaboral/>
+            
           </p>
           <p>
-                <TerceiroPosLaboral/>
+               
           </p>
         </AccordionContent>
         
@@ -68,7 +64,7 @@ const Horario = () => {
               
           </p>
           <p>
-                <QuartoPosLaboral/>      
+                   
           </p>
         
         </AccordionContent>
