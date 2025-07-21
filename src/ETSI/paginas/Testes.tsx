@@ -17,6 +17,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { AlertaSemTestes } from "@/Section/Alerta";
+import PrimeiroLaboral from "../TabelasDados/Testes/primeiroLaboral";
+import PrimeiroPosLaboral from "../TabelasDados/Testes/primeiroPosLaboral";
 
 export function AccordionTestes() {
   return (
@@ -34,10 +36,10 @@ export function AccordionTestes() {
         <AccordionTrigger>Primeiro Ano</AccordionTrigger> 
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
-              <AlertaSemTestes/>
+             <PrimeiroLaboral/>
           </p>
           <p>
-           
+             <PrimeiroPosLaboral/>
           </p>
         </AccordionContent>
       </AccordionItem>

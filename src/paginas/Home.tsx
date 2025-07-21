@@ -15,8 +15,10 @@ export default Home;
 
 export function TypographyH1() {
   return (
-
-    <><h5 className="scroll-m-20 text-center text-1xl font-extrabold tracking-tight text-balance text-sky-400">
+  
+    <><h5 className="scroll-m-20 text-center text-1xl font-extrabold tracking-tight text-balance 
+   bg-gradient-to-bl from-sky-900 to-sky-400 bg-clip-text text-transparent
+    ">
       <br />
       <br />
       <br />

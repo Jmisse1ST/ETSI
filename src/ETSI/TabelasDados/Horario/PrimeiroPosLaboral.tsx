@@ -22,7 +22,7 @@ const horas = [
   {
     horas: "18:00 - 18:45",
     Segunda: "Programacao 1",
-   Terca: "Lógica Computacional",
+    Terca: "Lógica Computacional",
     Quarta: "`Programação 1",
     Quinta: "Probabilidade Estatística",
     Sexta: "Análise Matemática 2",
