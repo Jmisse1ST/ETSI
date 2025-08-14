@@ -23,7 +23,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <header className="bg-white/70 backdrop-blur-md fixed top-0 left-0 w-full z-50 shadow-sm transition-colors duration-300">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
@@ -33,7 +33,7 @@ export default function Header() {
             <img
               alt="Logo"
               src={ logo }
-              className="h-8 w-auto"/>
+              className="h-8 w-auto" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -110,6 +110,7 @@ export default function Header() {
                 alt="Logo"
                 src={ logo }
                 className="h-8 w-auto"
+                onClick={() => setMobileMenuOpen(false)}
               />
             </Link>
             <button
@@ -144,24 +145,24 @@ export default function Header() {
                 </Disclosure>
                 <Link to="/horario"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
+                 onClick={() => setMobileMenuOpen(false)}>
                   Horário 
                 </Link>
                 <Link to="/equipe"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
+                 onClick={() => setMobileMenuOpen(false)}>
                   Equipe
                 </Link>
                 <Link to="/sobre"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
+                 onClick={() => setMobileMenuOpen(false)}>
                   Sobre
                 </Link>
               </div>
               <div className="py-6">
                 <Link to="/login"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
+                 onClick={() => setMobileMenuOpen(false)}>
                   Log in
                 </Link>
               </div>
