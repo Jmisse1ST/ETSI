@@ -34,7 +34,6 @@ const products = [
 ];
 
 const faculdades = [
-  { name: 'ETSI', description: 'Bem vindo a faculdade de ciencias', to: "/", icon: ChartPieIcon },
   { name: 'AP', description: 'AP', to: "/", icon: CursorArrowRaysIcon },
   { name: 'GE', description: 'GE', to: "/", icon: CursorArrowRaysIcon },
   { name: 'EN', description: 'EN', to: "/", icon: CursorArrowRaysIcon },
