@@ -1,4 +1,4 @@
-import { useEffect } from "react"; 
+import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./Section/Header";
 import Sobre from "./paginas/Sobre";
@@ -19,7 +19,7 @@ import HomeGE from "./GE/paginas/HomeGE";
 
 
 const App = () => {
-    useEffect(() => {
+  useEffect(() => {
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
@@ -57,11 +57,22 @@ const App = () => {
         <Route path="/horarioAP" element={<HorarioAP />} />
         <Route path="/horarioGE" element={<HorarioGE />} />
 
+        <Route path="/testes" element={<Testes />} />
+        <Route path="testesRID" element={ <TestesRID/>} />
+        <Route path="testesEN" element={ <TestesEN/>} />
+        <Route path="testesAP" element= { <TestesAP/>} />
+        <Route path="testesGE" element= { <TestesGE/> }/>
+
+        
         
 
-      </Routes>
+  
+
+
+
+          </Routes>
     </>
-  );
+      );
 };
 
-export default App;
+      export default App;
