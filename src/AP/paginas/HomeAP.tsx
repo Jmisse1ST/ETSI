@@ -1,33 +1,37 @@
-const Home = () => {
+const HomeAP = () => {
 
-    return(
-        <>
-          <section className="mt-20">
+    return (
+      <>
+        <section className="mt-20">
 
-          <TypographyH1 /><InputHome/><AlertHome />
-          </section>
-        </>
+          <TypographyH1 /><InputHome /><AlertHome />
+        </section>
+      </>
 
     )
-}
+  }
 
 
 
-export default Home;
+export default HomeAP;
 
 export function TypographyH1() {
   return (
   
-    <><h5 className="scroll-m-20 text-center text-1xl font-extrabold tracking-tight text-balance 
-   bg-gradient-to-bl from-sky-900 to-sky-400 bg-clip-text text-transparent
+    <><h5 className="scroll-m-20 text-center text-2xl font-extrabold tracking-tight text-balance 
+   bg-gradient-to-bl from-gray-700 to-sky-800 bg-clip-text text-transparent
     ">
+      
+      
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      Seja Bem Vindo a Lib-UJC,  O seu Repositório Acadêmico
-    </h5><p className="text-muted-foreground text-sm text-center">Feito por estudantes para estudantes.</p></>
+      <EfeitoEscrever/>
+      <br/>
+      
+       <h1 className="text-3xl font-bold text-center mb-8 
+         bg-gradient-to-tr from-cyan-300 to-blue-900 bg-clip-text text-transparent        
+        ">Seja Bem Vindo a Lib-UJC,  O seu Repositório Acadêmico</h1>
+     
+    </h5><p className="text-muted-foreground text-sm text-center font-mono">Feito por estudantes para estudantes.</p></>
   )
 }
 
@@ -73,6 +77,7 @@ import {
   AlertDescription,
   AlertTitle,
 } from "@/components/ui/alert"
+import EfeitoEscrever from "@/Section/EfeitoEscrever";
 
 export function AlertHome() {
   return (

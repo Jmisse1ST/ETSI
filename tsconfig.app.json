@@ -40,5 +40,5 @@
   },
 
   // Apenas arquivos dentro de "src" serão considerados
-  "include": ["src"]
+  "include": ["src", "QuartoLaboral.tsx"]
 }
