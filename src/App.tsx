@@ -24,11 +24,9 @@ import HorarioRID from "./RID/paginas/Horario";
 import HorarioEN from "./EN/paginas/Horario";
 import HorarioAP from "./AP/paginas/Horario";
 import HorarioGE from "./GE/paginas/Horario";
-import TrabalhosRID from "./RID/paginas/Trabalhos";
-import TrabalhosEN from "./EN/paginas/Trabalhos";
-import TrabalhosGE from "./GE/paginas/Trabalhos";
-import TrabalhosAP from "./AP/paginas/Trabalhos";
+
 import CriarConta from "./paginas/CriarConta";
+import HeaderAP from "./AP/paginas/HeaderAp";
 
 
 const App = () => {
@@ -48,6 +46,7 @@ const App = () => {
   return (
     <>
       <Header />
+      <HeaderAP/>
       <Routes>
         <Route path="/criarConta" element={<CriarConta />} />
         <Route path="/login" element={<Login />} />
@@ -75,10 +74,8 @@ const App = () => {
         <Route path="/testesGE" element={<TestesGE />} />
 
         <Route path="/trabalhos" element={<Trabalhos />} />
-        <Route path="/trabalhosRID" element {<TrabalhosRID />} />
-        <Route path="/trabalhosEN" element {<TrabalhosEN />} />
-        <Route path="/trabalhosAP" element {<TrabalhosAP />} />
-        <Route path="/trabalhosGE" element {<TrabalhosGE />} />
+      
+        
       </Routes>
     </>
   );
