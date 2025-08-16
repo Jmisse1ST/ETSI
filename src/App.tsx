@@ -79,11 +79,6 @@ const App = () => {
         <Route path="/trabalhosEN" element {<TrabalhosEN />} />
         <Route path="/trabalhosAP" element {<TrabalhosAP />} />
         <Route path="/trabalhosGE" element {<TrabalhosGE />} />
-
-
-
-
-
       </Routes>
     </>
   );

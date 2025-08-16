@@ -33,11 +33,32 @@ const products = [
   { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhos", icon: CursorArrowRaysIcon }
 ];
 
+const productsAP = [
+  { name: 'Testes', description: 'Consulte as datas das suas avaliações', to: "/testesAP", icon: ChartPieIcon },
+  { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhosAP", icon: CursorArrowRaysIcon }
+];
+
+const productsGE = [
+  { name: 'Testes', description: 'Consulte as datas das suas avaliações', to: "/testesGE", icon: ChartPieIcon },
+  { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhosGE", icon: CursorArrowRaysIcon }
+];
+
+const productsEN = [
+  { name: 'Testes', description: 'Consulte as datas das suas avaliações', to: "/testesEN", icon: ChartPieIcon },
+  { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhosEN', to: "/trabalhosEN", icon: CursorArrowRaysIcon }
+];
+
+const productsRID = [
+  { name: 'Testes', description: 'Consulte as datas das suas avaliações', to: "/testesRID", icon: ChartPieIcon },
+  { name: 'Trabalhos', description: 'Consulte as datas de entrega dos seus trabalhos', to: "/trabalhosRID", icon: CursorArrowRaysIcon }
+];
+
+
 const faculdades = [
-  { name: 'AP', description: 'AP', to: "/", icon: CursorArrowRaysIcon },
-  { name: 'GE', description: 'GE', to: "/", icon: CursorArrowRaysIcon },
-  { name: 'EN', description: 'EN', to: "/", icon: CursorArrowRaysIcon },
-  { name: 'RID', description: 'RID', to: "/", icon: CursorArrowRaysIcon }
+  { name: 'AP', description: 'AP', to: "/homeAP", icon: CursorArrowRaysIcon },
+  { name: 'GE', description: 'GE', to: "/homeGE", icon: CursorArrowRaysIcon },
+  { name: 'EN', description: 'EN', to: "/homeEN", icon: CursorArrowRaysIcon },
+  { name: 'RID', description: 'RID', to: "/homeRID", icon: CursorArrowRaysIcon }
 ];
 
 
@@ -46,5 +67,9 @@ export {
   people,
   whoWeAre,
   products,
-  faculdades
+  faculdades,
+  productsAP,
+  productsRID,
+  productsGE,
+  productsEN
 };
