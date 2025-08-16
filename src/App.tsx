@@ -38,12 +38,10 @@ const App = () => {
       <Routes>
         <Route path="/criarConta" element={<CriarConta />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Home />} />
+
+       
         <Route path="/sobre" element={<Sobre />} />
-        <Route path="/horario" element={<Horario />} />
         <Route path="/equipe" element={<Team />} />
-        <Route path="/trabalhos" element={<Trabalhos />} />
-        <Route path="/testes" element={<Testes />} />
 
         <Route path="/" element={<Home />} />
         <Route path="/HomeRID" element={<HomeRID />} />
@@ -58,21 +56,24 @@ const App = () => {
         <Route path="/horarioGE" element={<HorarioGE />} />
 
         <Route path="/testes" element={<Testes />} />
-        <Route path="testesRID" element={ <TestesRID/>} />
-        <Route path="testesEN" element={ <TestesEN/>} />
-        <Route path="testesAP" element= { <TestesAP/>} />
-        <Route path="testesGE" element= { <TestesGE/> }/>
+        <Route path="/testesRID" element={<TestesRID />} />
+        <Route path="/testesEN" element={<TestesEN />} />
+        <Route path="/testesAP" element={<TestesAP />} />
+        <Route path="/testesGE" element={<TestesGE />} />
 
-        
-        
+        <Route path="/trabalhos" element={<Trabalhos />} />
+        <Route path="/trabalhosRID" element {<TrabalhosRID />} />
+        <Route path="/trabalhosEN" element {<TrabalhosEN />} />
+        <Route path="/trabalhosAP" element {<TrabalhosAP />} />
+        <Route path="/trabalhosGE" element {<TrabalhosGE />} />
 
-  
 
 
 
-          </Routes>
+
+      </Routes>
     </>
-      );
+  );
 };
 
-      export default App;
+export default App;
