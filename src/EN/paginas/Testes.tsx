@@ -1,4 +1,5 @@
-const Testes = () => {
+const TestesEN
+ = () => {
     return(
         <>
           <div className="mt-20 ">
@@ -8,7 +9,7 @@ const Testes = () => {
     )
 }
 
-export default Testes;
+export default TestesEN;
 
 import {
   Accordion,

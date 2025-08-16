@@ -8,7 +8,7 @@ import Team from "./Section/Team";
 
 import Home from "./ETSI/paginas/Home";
 import Login from "./paginas/Login";
-import CriarConta from "./paginas/CriarConta";
+
 import Testes from "./ETSI/paginas/Testes";
 import Trabalhos from "./ETSI/paginas/Trabalhos";
 import Horario from "./ETSI/paginas/Horario";
@@ -16,6 +16,19 @@ import HomeRID from "./RID/paginas/homeRID";
 import HomeEN from "./EN/paginas/HomeEN";
 import HomeAP from "./AP/paginas/HomeAP";
 import HomeGE from "./GE/paginas/HomeGE";
+import TestesRID from "./RID/paginas/Testes";
+import TestesEN from "./EN/paginas/Testes";
+import TestesGE from "./GE/paginas/Testes";
+import TestesAP from "./AP/paginas/Testes";
+import HorarioRID from "./RID/paginas/Horario";
+import HorarioEN from "./EN/paginas/Horario";
+import HorarioAP from "./AP/paginas/Horario";
+import HorarioGE from "./GE/paginas/Horario";
+import TrabalhosRID from "./RID/paginas/Trabalhos";
+import TrabalhosEN from "./EN/paginas/Trabalhos";
+import TrabalhosGE from "./GE/paginas/Trabalhos";
+import TrabalhosAP from "./AP/paginas/Trabalhos";
+import CriarConta from "./paginas/CriarConta";
 
 
 const App = () => {
