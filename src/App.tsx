@@ -51,7 +51,13 @@ const App = () => {
         <Route path="/HomeAP" element={<HomeAP />} />
         <Route path="/HomeGE" element={<HomeGE />} />
 
+        <Route path="/horario" element={<Horario />} />
+        <Route path="/horarioRID" element={<HorarioRID />} />
+        <Route path="/horarioEN" element={<HorarioEN />} />
+        <Route path="/horarioAP" element={<HorarioAP />} />
+        <Route path="/horarioGE" element={<HorarioGE />} />
 
+        
 
       </Routes>
     </>
