@@ -12,6 +12,10 @@ import CriarConta from "./paginas/CriarConta";
 import Testes from "./ETSI/paginas/Testes";
 import Trabalhos from "./ETSI/paginas/Trabalhos";
 import Horario from "./ETSI/paginas/Horario";
+import HomeRID from "./RID/paginas/homeRID";
+import HomeEN from "./EN/paginas/HomeEN";
+import HomeAP from "./AP/paginas/HomeAP";
+import HomeGE from "./GE/paginas/HomeGE";
 
 
 const App = () => {
@@ -41,9 +45,14 @@ const App = () => {
         <Route path="/trabalhos" element={<Trabalhos />} />
         <Route path="/testes" element={<Testes />} />
 
-       
-      
-      
+        <Route path="/" element={<Home />} />
+        <Route path="/HomeRID" element={<HomeRID />} />
+        <Route path="/HomeEN" element={<HomeEN />} />
+        <Route path="/HomeAP" element={<HomeAP />} />
+        <Route path="/HomeGE" element={<HomeGE />} />
+
+
+
       </Routes>
     </>
   );
