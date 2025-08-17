@@ -29,7 +29,7 @@ export function TypographyH1() {
       
        <h1 className="text-3xl font-bold text-center mb-8 
          bg-gradient-to-tr from-cyan-300 to-blue-900 bg-clip-text text-transparent        
-        ">Seja Bem Vindo a Lib-UJC,  O seu Repositório Acadêmico</h1>
+        ">Seja Bem Vindo a Lib-ETSI,  O seu Repositório Acadêmico</h1>
      
     </h5><p className="text-muted-foreground text-sm text-center font-mono">Feito por estudantes para estudantes.</p></>
   )

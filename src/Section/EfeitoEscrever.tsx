@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 
 const EfeitoEscrever = () => {
   const phrases = [
-    'Boa tarde, Jemisse!'
+    'Engenharia em Tecnologia',
+    " e Sistemas de Informacao "
   ];
   const [text, setText] = useState('');
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
@@ -10,7 +11,7 @@ const EfeitoEscrever = () => {
   const [isDeleting] = useState(false);
 
   useEffect(() => {
-    const typingSpeed = isDeleting ? 75:100; // Velocidade mais rápida para apagar
+    const typingSpeed = isDeleting ? 90:100; // Velocidade mais rápida para apagar
     const currentPhrase = phrases[currentPhraseIndex];
     
     if (isTyping) {
@@ -41,7 +42,7 @@ const EfeitoEscrever = () => {
 
   return (
     <p className="scroll-m-20 text-center text-2xl font-extrabold tracking-tight text-balance 
-   bg-gradient-to-bl from-gray-700 to-sky-800 bg-clip-text text-transparent
+   bg-gradient-to-bl from-gray-700 to-sky-800 bg-clip-text text-transparent px-10
     ">
       {text}
       <span className="animate-pulse">|</span> {/* Cursor piscando */}

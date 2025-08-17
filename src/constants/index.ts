@@ -61,6 +61,36 @@ const faculdades = [
   { name: 'RID', description: 'RID', to: "/homeRID", icon: CursorArrowRaysIcon }
 ];
 
+const faculdadesAP = [
+  { name: 'ETSI', description: 'AP', to: "/", icon: CursorArrowRaysIcon },
+  { name: 'GE', description: 'GE', to: "/homeGE", icon: CursorArrowRaysIcon },
+  { name: 'EN', description: 'EN', to: "/homeEN", icon: CursorArrowRaysIcon },
+  { name: 'RID', description: 'RID', to: "/homeRID", icon: CursorArrowRaysIcon }
+];
+
+const faculdadesGE = [
+  { name: 'ETSI', description: 'AP', to: "/", icon: CursorArrowRaysIcon },
+  { name: 'AP', description: 'AP', to: "/homeAP", icon: CursorArrowRaysIcon },
+  { name: 'EN', description: 'EN', to: "/homeEN", icon: CursorArrowRaysIcon },
+  { name: 'RID', description: 'RID', to: "/homeRID", icon: CursorArrowRaysIcon }
+];
+
+const faculdadesRID = [
+  { name: 'ETSI', description: 'AP', to: "/", icon: CursorArrowRaysIcon },
+  { name: 'AP', description: 'AP', to: "/homeAP", icon: CursorArrowRaysIcon },
+  { name: 'EN', description: 'EN', to: "/homeEN", icon: CursorArrowRaysIcon },
+  { name: 'GE', description: 'GE', to: "/homeGE", icon: CursorArrowRaysIcon }
+];
+
+const faculdadesEN = [
+  { name: 'ETSI', description: 'AP', to: "/", icon: CursorArrowRaysIcon },
+  { name: 'AP', description: 'AP', to: "/homeAP", icon: CursorArrowRaysIcon },
+  { name: 'GE', description: 'GE', to: "/homeGE", icon: CursorArrowRaysIcon },
+  { name: 'RID', description: 'RID', to: "/homeRID", icon: CursorArrowRaysIcon }
+];
+
+
+
 
 
 export {
@@ -71,5 +101,9 @@ export {
   productsAP,
   productsRID,
   productsGE,
-  productsEN
+  productsEN,
+  faculdadesAP,
+  faculdadesRID,
+  faculdadesEN,
+  faculdadesGE
 };

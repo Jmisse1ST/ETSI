@@ -27,6 +27,9 @@ import HorarioGE from "./GE/paginas/Horario";
 
 import CriarConta from "./paginas/CriarConta";
 import HeaderAP from "./AP/paginas/HeaderAp";
+import HeaderRID from "./RID/paginas/HeaderRID";
+import HeaderGE from "./GE/paginas/HeaderGE";
+import HeaderEN from "./EN/paginas/ HeaderEN";
 
 
 const App = () => {
@@ -48,30 +51,30 @@ const App = () => {
       <Header />
       <HeaderAP/>
       <Routes>
-        <Route path="/criarConta" element={<CriarConta />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/criarConta" element={<CriarConta/>}/>
+        <Route path="/login" element={<Login/>}/>
 
        
-        <Route path="/sobre" element={<Sobre />} />
-        <Route path="/equipe" element={<Team />} />
+        <Route path="/sobre" element={<Sobre/>}/>
+        <Route path="/equipe" element={<Team/>}/>
 
-        <Route path="/" element={<Home />} />
-        <Route path="/HomeRID" element={<HomeRID />} />
-        <Route path="/HomeEN" element={<HomeEN />} />
-        <Route path="/HomeAP" element={<HomeAP />} />
-        <Route path="/HomeGE" element={<HomeGE />} />
+        <Route path="/" element={<><Home /><Header/></>} />
+        <Route path="/HomeRID" element={<><HomeRID/><HeaderRID/></> } />
+        <Route path="/HomeEN" element={<><HomeEN/><HeaderEN/></>} />
+        <Route path="/HomeAP" element={<><HomeAP/><HeaderAP/></>} />
+        <Route path="/HomeGE" element={<><HomeGE/><HeaderGE/></>} />
 
-        <Route path="/horario" element={<Horario />} />
-        <Route path="/horarioRID" element={<HorarioRID />} />
-        <Route path="/horarioEN" element={<HorarioEN />} />
-        <Route path="/horarioAP" element={<HorarioAP />} />
-        <Route path="/horarioGE" element={<HorarioGE />} />
+        <Route path="/horario" element={<Horario />}/>
+        <Route path="/horarioRID" element={<HorarioRID/>}/>
+        <Route path="/horarioEN" element={<HorarioEN/>}/>
+        <Route path="/horarioAP" element={<HorarioAP/>}/>
+        <Route path="/horarioGE" element={<HorarioGE/>}/>
 
-        <Route path="/testes" element={<Testes />} />
-        <Route path="/testesRID" element={<TestesRID />} />
-        <Route path="/testesEN" element={<TestesEN />} />
-        <Route path="/testesAP" element={<TestesAP />} />
-        <Route path="/testesGE" element={<TestesGE />} />
+        <Route path="/testes" element={<Testes/>}/>
+        <Route path="/testesRID" element={<TestesRID/>}/>
+        <Route path="/testesEN" element={<TestesEN/>}/>
+        <Route path="/testesAP" element={<TestesAP/>}/>
+        <Route path="/testesGE" element={<TestesGE/>}/>
 
         <Route path="/trabalhos" element={<Trabalhos />} />
       
