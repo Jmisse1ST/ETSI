@@ -1,5 +1,5 @@
 
-import { footer_img } from '../constants/footer.ts';
+import { footer_img } from '../AP/paginas/constants/footer.ts';
 
 const currentYear = new Date().getFullYear();
 

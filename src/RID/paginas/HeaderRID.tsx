@@ -21,7 +21,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { faculdadesAP, productsAP } from '@/constants';
+import { faculdadesRID, productsRID } from '@/AP/paginas/constants';
 
 export default function HeaderRID 
 () {
@@ -64,7 +64,7 @@ export default function HeaderRID
               className="absolute left-1/2 z-10 mt-3 w-screen max-w-md -translate-x-1/2 overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
             >
               <div className="p-4">
-                {productsAP.map((item) => (
+                {productsRID.map((item) => (
                   <div
                     key={item.name}
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50"
@@ -147,7 +147,7 @@ export default function HeaderRID
                     <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...faculdadesAP].map((item) => (
+                    {[...faculdadesRID].map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"
@@ -166,7 +166,7 @@ export default function HeaderRID
                     <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-open:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...productsAP].map((item) => (
+                    {[...productsRID].map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"

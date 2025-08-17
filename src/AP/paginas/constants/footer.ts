@@ -6,7 +6,7 @@ const footer_img = [
     {
         img: linkedin,
         alt: 'Linkedin',
-        link: ''
+        link: '/'
     },
     {
         img: x,

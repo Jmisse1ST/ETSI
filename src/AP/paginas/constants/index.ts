@@ -90,9 +90,6 @@ const faculdadesEN = [
 ];
 
 
-
-
-
 export {
   people,
   whoWeAre,

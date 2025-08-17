@@ -1,5 +1,5 @@
 import Footer from "./Footer"
-import { people, whoWeAre }  from "../constants/index.ts";
+import { people, whoWeAre }  from "../AP/paginas/constants/index.ts";
 
 export default function Team() {
   return (
