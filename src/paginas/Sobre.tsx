@@ -1,5 +1,6 @@
-import Footer from "@/Section/Footer"
 import { sobreData } from "@/constants/Sobre"
+import Footer from "@/Section/Footer"
+
 
 const Sobre = () => {
   return (

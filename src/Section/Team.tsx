@@ -1,5 +1,6 @@
+import { people, whoWeAre } from "@/constants"
 import Footer from "./Footer"
-import { people, whoWeAre }  from "../constants/index.ts";
+
 
 export default function Team() {
   return (

@@ -1,4 +1,5 @@
-const Testes = () => {
+const TestesRID
+= () => {
     return(
         <>
           <div className="mt-20 ">
@@ -8,7 +9,7 @@ const Testes = () => {
     )
 }
 
-export default Testes;
+export default TestesRID;
 
 import {
   Accordion,

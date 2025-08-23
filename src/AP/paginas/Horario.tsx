@@ -8,7 +8,8 @@ import PrimeiroLaboral from "@/ETSI/TabelasDados/Horario/PrimeiroLaboral";
 import { AlertaSemHorario } from "@/Section/Alerta"
 
 
-const Horario = () => {
+const HorarioAP
+= () => {
   return (
     <section className="mt-20">
 
@@ -84,4 +85,4 @@ const Horario = () => {
   )
 }
 
-export default Horario;
+export default HorarioAP;

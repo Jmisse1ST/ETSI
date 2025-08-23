@@ -1,4 +1,5 @@
-const Trabalhos = () => {
+const TrabalhosAP
+ = () => {
     return(
         <>
         <div className="mt-20"><AccordionTrabalho/></div>
@@ -6,7 +7,7 @@ const Trabalhos = () => {
     )
 }
 
-export default Trabalhos;
+export default TrabalhosAP;
 
 
 import {

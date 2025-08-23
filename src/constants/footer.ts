@@ -2,11 +2,13 @@ import linkedin from '../assets/linkedin.svg';
 import x from '../assets/x.svg';
 import logo from '../assets/logo-fabio.png';
 import whatsapp from '../assets/whatsapp.svg';
+
+
 const footer_img = [
     {
         img: linkedin,
         alt: 'Linkedin',
-        link: ''
+        link: '/'
     },
     {
         img: x,

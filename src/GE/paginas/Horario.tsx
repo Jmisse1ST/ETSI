@@ -7,7 +7,8 @@ import {
 import { AlertaSemHorario } from "@/Section/Alerta"
 
 
-const Horario = () => {
+const HorarioGE
+ = () => {
   return (
     <section className="mt-20">
 
@@ -83,4 +84,4 @@ const Horario = () => {
   )
 }
 
-export default Horario;
+export default HorarioGE;
