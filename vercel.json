@@ -5,12 +5,7 @@
       "PNPM_FLAGS": "--ignore-scripts"
     }
   },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ],
+  
   "routes": [
     {
       "handle": "filesystem"
@@ -21,3 +16,5 @@
     }
   ]
 }
+
+
