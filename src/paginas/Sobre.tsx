@@ -1,5 +1,6 @@
+import { sobreData } from "@/constants/Sobre"
 import Footer from "@/Section/Footer"
-import { sobreData } from "@/AP/paginas/constants/Sobre"
+
 
 const Sobre = () => {
   return (

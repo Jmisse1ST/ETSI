@@ -21,7 +21,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { faculdadesRID, productsRID } from '@/AP/paginas/constants';
+import { faculdadesRID, productsRID } from '@/constants';
+
 
 export default function HeaderRID 
 () {

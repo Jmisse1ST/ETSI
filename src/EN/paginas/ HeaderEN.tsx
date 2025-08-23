@@ -21,7 +21,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { faculdadesEN, productsEN } from '@/AP/paginas/constants';
+import { faculdadesEN, productsEN } from '@/constants';
+
 
 export default function HeaderEN
 () {
